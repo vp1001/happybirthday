@@ -9,7 +9,7 @@ export default function HappyBirthday() {
         { img: '/photo13.jpeg', text: "Look at that cute kiddo 🥰" },
         { img: '/photo14.jpeg', text: "As pretty as anyone can get 😍💯" },
         { img: '/photo11.jpeg', text: "To the the times that will always bring a smile to my face 💫" },
-        { img: '/photo12.jpeg', text: "And to the PERSON who'll always bring a smile to my face 😁" },
+        { img: '/photo12.jpeg', text: "And to the PERSON who always brings a smile to my face 😁" },
         { img: '/photo15.jpeg', text: "Wish you a very Happy Birthday 🎂 Thanks for always staying by me ❤️" },
         { img: '/photo16.jpeg', text: "You are an amazing friend 💖 Love you loads!" }
     ];
@@ -39,9 +39,9 @@ export default function HappyBirthday() {
     if (!started) {
         return (
             <div className={styles.landingContainer}>
-                <h1 className={styles.landingText}>🎉 Whose Birthday is it today? 🎈</h1>
+                <h1 className={styles.landingText}>🎉 Who&apos;s Birthday is it today? 🎈</h1>
                 <button className={styles.startButton} onClick={() => setStarted(true)}>
-                    Anvi's ✨
+                    Anvi&apos;s ✨
                 </button>
             </div>
         );
