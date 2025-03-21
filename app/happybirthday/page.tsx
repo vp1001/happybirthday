@@ -11,7 +11,7 @@ export default function HappyBirthday() {
         { img: '/photo11.jpeg', text: "To the the times that will always bring a smile to my face 💫" },
         { img: '/photo12.jpeg', text: "And to the PERSON who'll always bring a smile to my face 😁" },
         { img: '/photo15.jpeg', text: "Wish you a very Happy Birthday 🎂 Thanks for always staying by me ❤️" },
-        { img: '/photo16.jpeg', text: "You're an amazing friend 💖 Love you loads!" }
+        { img: '/photo16.jpeg', text: "You are an amazing friend 💖 Love you loads!" }
     ];
 
     const [current, setCurrent] = useState(0);
